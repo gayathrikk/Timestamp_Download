@@ -32,11 +32,11 @@ public class Timestamp_download {
 		System.out.println("--------------------------*****************-----------------------");
 		System.out.println("The server is Opened sucessfully");
 		WebDriverWait wait = new WebDriverWait(driver, 50);
-		WebElement viewerSectionLink = wait
-				.until(ExpectedConditions.elementToBeClickable(By.xpath("//img[@src='/viewer/assets/images/colorsvg/gallery.svg']")));
-		viewerSectionLink.click();
-		System.out.println("--------------------------*****************-----------------------");
-		System.out.println("The Viewer Icon is clicked");
+		// WebElement viewerSectionLink = wait
+		// 		.until(ExpectedConditions.elementToBeClickable(By.xpath("//img[@src='/viewer/assets/images/colorsvg/gallery.svg']")));
+		// viewerSectionLink.click();
+		// System.out.println("--------------------------*****************-----------------------");
+		// System.out.println("The Viewer Icon is clicked");
 		String parentWindow = driver.getWindowHandle();
 		WebDriverWait wait1 = new WebDriverWait(driver, 20);
 		WebElement login = wait1
